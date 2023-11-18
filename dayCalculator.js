@@ -26,7 +26,7 @@ function calculateDayInYear(date) {
     if(isLeapYear(year)){ // did not have if condition
       return 29;
     }
-     return 28;
+    return 28;
   }
 
   const isLeapYear = function(year) {
